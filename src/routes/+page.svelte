@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    var i1 = "Cica"
+</script>
+<h1 align="center">Cica</h1>
+<form align="center">
+    <input class="form-control" type="text" bind:value={i1}>
+</form>
+
+<h1 align="center">
+    {i1.split("").reverse().join("")}
+</h1>
+
+<a href="calc">Számológép</a>
