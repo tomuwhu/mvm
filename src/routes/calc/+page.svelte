@@ -18,8 +18,7 @@
             i = i / 100
         } else if (e == '√') {
             i = Math.sqrt(i)
-        }
-        else {
+        } else {
             i += e
         }
     }
